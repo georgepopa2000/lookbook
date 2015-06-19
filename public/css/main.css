@@ -4,7 +4,7 @@
 	float:left;
 }
 
-.thumbnail {
+.thumbnailm {
 	margin-bottom:0px;
 	cursor:pointer;
     -webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -14,7 +14,7 @@
     transition: all 1s ease;	
 }
 
-.thumbnail:hover {
+.thumbnailm:hover {
     -webkit-transform:scale(1.1); /* Safari and Chrome */
     -moz-transform:scale(1.1); /* Firefox */
     -ms-transform:scale(1.1); /* IE 9 */
@@ -40,3 +40,31 @@
   background: rgba(255, 255, 255, 0.3);
 }
 
+.thumbnaillookbook {
+	margin-bottom:0px;
+	cursor:pointer;	
+}
+.lookbookcontainer {
+	width:100%;
+	
+}
+#lookbookleft {
+	float: left;
+	width: 230px; 
+	margin-left: -100%;
+}
+
+#lookbookright {
+	float: left;
+	width: 100%;
+	
+}
+
+#lookbookrightinner {
+	margin-left:230px;
+	padding:20px;
+}
+.imagebig {
+	max-width:100%;
+	padding-bottom:20px;
+}

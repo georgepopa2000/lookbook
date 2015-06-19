@@ -9,7 +9,6 @@ define(['backbone'],function(Backbone){
 				'file' : '/cache/images/'+filename+'_w2000_h2000.jpg',
 				'slugid' : filename.replace(/^[^a-z]+|[^\w:.-]+/gi, ""),
 			});
-			this.set('rand',Math.random());
 		}
 	});
 	

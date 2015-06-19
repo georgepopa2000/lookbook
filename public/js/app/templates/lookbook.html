@@ -1,0 +1,19 @@
+
+<a href="#" id="createpdf">create pdf</a>
+<div id="lookbookright">
+<div id="lookbookrightinner">
+
+</div>
+</div>
+
+<div id="lookbookleft">
+<div id="lookbookleft1">
+<% _.each(images,function(element){ %>
+<div class="containerthumbnailb" data-hash="<%-element.id%>" data-filename="<%-element.filename%>">
+<img src="<%-element.thumbnail%>"  class="thumbnail thumbnaillookbook" data-hash="<%-element.id%>" />
+</div>
+<% }); %>
+</div>
+</div>
+
+

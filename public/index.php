@@ -5,6 +5,9 @@
 <title>Lookbook</title>
 <link href="/css/bootstrap.css" rel="stylesheet">
 <link href="/css/main.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
+    
 <script type="text/javascript" src="/js/libs/require.js"></script>
 
 <script type="text/javascript" src="/js/app/main.js"></script>

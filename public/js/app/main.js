@@ -5,6 +5,7 @@ require.config({
 		    backbone: './../libs/backbone',
 		    text: './../libs/text',
 		    localstorage: './../libs/backbone.localstorage',
+		    jqueryui: '//code.jquery.com/ui/1.11.4/jquery-ui',
 		  },
 		  baseUrl:'./js/app/',
 });
