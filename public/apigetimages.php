@@ -7,6 +7,6 @@ function endsWith($haystack, $needle) {
 $directory = 'album';
 //scans for jpeg files in $directory
 $scanned_directory = array_values(array_filter(scandir($directory),function($element){if (endsWith($element,".jpg")) return true;return false;}));
-
+$scanned_directory = array_map(function($element){return array('filename' => $element);}, $scanned_directory);
 //return results json encoded
 echo json_encode($scanned_directory);

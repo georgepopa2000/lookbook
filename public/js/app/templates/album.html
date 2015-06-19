@@ -1,0 +1,5 @@
+<% _.each(images,function(element){ %>
+<div id="container_<%-element.slugid%>" class="containerthumbnail<% if (functions.isLookbook(element.slugid)) print(' transparentcover'); %>" data-hash="<%-element.slugid%>" data-filename="<%-element.filename%>" data-thumbnail="<%-element.thumbnail%>">
+<img src="<%-element.thumbnail%>"  class="thumbnail" id="thumbnail_<%-element.slugid%>"/>
+</div>
+<% }); %>

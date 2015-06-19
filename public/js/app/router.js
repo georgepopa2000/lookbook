@@ -1,8 +1,9 @@
 define([
   'jquery',
   'underscore',
-  'backbone'
-], function($, _, Backbone){
+  'backbone',
+  './views/album'
+], function($, _, Backbone,AlbumView){
   var AppRouter = Backbone.Router.extend({
     routes: {
         'album': 'album',
@@ -12,10 +13,11 @@ define([
       '*actions': 'defaultAction'
     },
     album:function(){
-    	console.log('album');
+    	var albumView = new AlbumView();
+    	$('#content').html(albumView.$el);
     },
     lookbook: function(){
-    	console.log('lookbook');
+    	$('#content').html('');
     },
     defaultAction:function(){
     	console.log('default');

@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Lookbook</title>
 <link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
 <script type="text/javascript" src="/js/libs/require.js"></script>
 
 <script type="text/javascript" src="/js/app/main.js"></script>
